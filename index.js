@@ -71,12 +71,15 @@
             return console.log(((i + 1) + " : " + companyNames[company.comCode]).grey);
           });
           console.log("===");
-          process.stdout.write("请输入序号: ");
+          process.stdout.write("请输入序号: (默认为1, 直接Enter) ");
           process.stdin.resume();
           process.stdin.setEncoding('utf8');
           return process.stdin.on("data", function(text) {
             var chosen, e;
             chosen = text.trim();
+            if (chosen === "") {
+              chosen = 1;
+            }
             try {
               chosen = parseInt(chosen);
               if ((1 <= chosen && chosen <= companies.length)) {

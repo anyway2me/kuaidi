@@ -51,11 +51,12 @@ module.exports = (number) ->
                 companies.forEach (company, i) ->
                     console.log "#{i+1} : #{companyNames[company.comCode]}".grey
                 console.log "==="
-                process.stdout.write "请输入序号: "
+                process.stdout.write "请输入序号: (默认为1, 直接Enter) "
                 process.stdin.resume()
                 process.stdin.setEncoding('utf8')
                 process.stdin.on "data", (text) ->
                     chosen = text.trim()
+                    chosen = 1 if chosen is ""
                     try
                         chosen = parseInt chosen
                         if 1 <= chosen <= companies.length
