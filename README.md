@@ -1,7 +1,7 @@
 # kuaidi
 A command tool for querying express delivery
 
-!()[http://i1.tietuku.com/b8d2d99753e4a5eb.png]
+![](http://i1.tietuku.com/b8d2d99753e4a5eb.png)
 
 ## Install
 
