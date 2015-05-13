@@ -53,7 +53,7 @@ $ kuaidi 200093247451
 
 ## Issues
 
-目前快递公司信息不是很全，欢迎补充`lib/company.json`，格式为"companyCode": "公司名"，尽量按照字母排。其他issues请提出。
+目前快递公司信息不是很全，欢迎补充`lib/company.json`，格式为"companyCode": "公司名"，尽量按照字母排序。其他issues请提出。
 
 ## LICENSE
 
