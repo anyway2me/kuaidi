@@ -1,0 +1,23 @@
+{
+  "name": "kuaidi",
+  "version": "0.1.1",
+  "description": "A command tool for querying express delivery",
+  "main": "index.js",
+  "dependencies": {
+    "request": "^2.55.0",
+    "colors": "^1.1.0"
+  },
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:josephok/kuaidi.git"
+  },
+  "bin": {
+    "kuaidi": "./bin/kuaidi"
+  },
+  "keywords": [
+    "kuaidi"
+  ],
+  "author": "Joseph <josephok.qq.com>",
+  "license": "MIT"
+}

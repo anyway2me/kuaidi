@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+
+require("colors");
+
+if (process.argv.length != 3 && !process.argv[2]) {
+  // console.log('kuaidi ~ ' + require('../package').version.green);
+  console.log('查快递'.grey);
+  console.log('Usage:'.bold);
+  console.log('  $ '.cyan + 'kuaidi tracking_no');
+  return;
+}
+
+var kuaidi = require('..');
+kuaidi(process.argv[2]);
