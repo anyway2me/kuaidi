@@ -1,5 +1,5 @@
 # kuaidi
-A command tool for querying express delivery
+A command tool for querying express delivery(Based on [kuaidi100](http://www.kuaidi100.com/))
 
 ![](http://i1.tietuku.com/b8d2d99753e4a5eb.png)
 
@@ -50,6 +50,10 @@ $ kuaidi 200093247451
 ==========================
 
 ```
+
+## Issues
+
+目前快递公司信息不是很全，欢迎补充`lib/company.json`，格式为"companyCode": "公司名"，尽量按照字母排。其issues请提出。
 
 ## LICENSE
 
