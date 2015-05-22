@@ -1,7 +1,7 @@
 # kuaidi
 A command tool for querying express delivery(Based on [kuaidi100](http://www.kuaidi100.com/))
 
-![](http://i1.tietuku.com/b8d2d99753e4a5eb.png)
+![](http://i1.tietuku.com/8fb526d5a099bdf2.png)
 
 ## Install
 
@@ -28,7 +28,7 @@ $ kuaidi 200093247451
 8 : 速尔快递
 9 : 优速快递
 ===
-请输入序号: 1
+请输入序号: (默认为1, 直接Enter)
 ==========================
 快递公司 : 圆通速递
 运单号 : 200093247451
